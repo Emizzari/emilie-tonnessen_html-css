@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <!-- Technical: -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO: -->
+    <meta name="author" content="Emilie H. K. Tønnessen">
+    <meta name="keywords" content="eco-friendly, enviorment, bicycle, tours, guide, risør, norway, risor">
+    <meta name="description" content="Re-cycle provides eco-friendly bicycle tours in Risør, Norway. We are four different tours with different level of difficulty, so everyone can join on what they are comfortable with.">
+
+    <!-- CSS: -->
+    <link rel="stylesheet" href="css/master.css">
+
+    <!-- Page Title: -->
+    <title>Re-Cycle - Tours</title>
+
+    <!-- Font Awesome: -->
+    <script src="https://kit.fontawesome.com/f0fe9be787.js" crossorigin="anonymous"></script>
+</head>
+
+
+ <body>
+    <!-- NAVIGATION: ------------------------------------------------------------------------->
+    <nav class="nav">
+        <a href="index.html"><img class="nav__img--logo" src="images/logo/logo.png" alt="Logo"></a>
+        <div class="nav__block--mobile-icons">
+            <a href="index.html" class="nav__block__a"><i class="fas fa-home"></i>home</a>
+            <a id="mobile-active" href="tours.html" class="nav__block__a"><i class="fas fa-bicycle"></i>tours</a>
+            <a href="contact.html" class="nav__block__a"><i class="fas fa-envelope"></i>contact </a>
+            <a href="about.html" class="nav__block__a"><i class="fas fa-users"></i>about</a>
+        </div>
+        <ul class="nav__list">
+            <a href="index.html"><li>home</li></a
+            ><a id="active" href="tours.html"><li>tours</li></a
+            ><a href="contact.html"><li>contact</li></a
+            ><a href="about.html"><li>about</li></a>
+        </ul>
+    </nav>
+    <!---------------------------------------------------------------------------------------->
+
+
+    <!-- HEADER: ----------------------------------------------------------------------------->
+    <header class="header"></header>
+    <!---------------------------------------------------------------------------------------->
+
+
+    <!-- MAIN: ------------------------------------------------------------------------------->
+    <main class="main main--tours">
+        <!-- Tours: -->
+        <section class="main__section main__section--tours">
+        </section>
+
+        <!-- Order/form + Info: -->
+        <section class="main__section main__section--order">
+            <form class="main__section__form--order" action="">
+
+                <!-- Headline -->
+                <h2 class="form__h2">book your adventure</h2>
+
+                <!-- First Name: -->
+                <section class="form__section form__section--firstName">
+                    <h5 class="form__section__h5">First name:</h5>
+                    <input class="form__section__input" placeholder="First name.." id="firstName" />
+                   <div class="form__section__block--error" id="firstNameError"><span class="italic">- Please enter your first name</span></div>
+                </section>
+                
+                <!-- Last Name: -->
+                <section class="form__section form__section--lastName">
+                    <h5 class="form__section__h5">Last Name:</h5>
+                    <input class="form__section__input" placeholder="Last name.." id="lastName" />
+                   <div class="form__section__block--error" id="lastNameError"><span class="italic">- Please enter your last name</span></div>
+                </section>
+                
+                <!-- Email: -->
+                <section class="form__section form__section--email">
+                    <h5 class="form__section__h5">Email:</h5>
+                    <input class="form__section__input" placeholder="Email.." id="email" />
+                   <div class="form__section__block--error" id="emailError"><span class="italic">- Please enter a valid email address</span></div>
+                </section>
+
+                <!-- Tour: -->
+                <section class="form__section form__section--tour">
+                    <h5 class="form__section__h5">Tour:</h5>
+                    <select class="form__section__select" name="tours">
+                        <option value="city">City Tour</option>
+                        <option value="krana">Krana</option>
+                        <option value="urheia" selected>Urheia</option>
+                        <option value="fransåsen">Fransåsen</option>
+                    </select>
+                </section>
+                
+                <!-- Message: -->
+                <section class="form__section form__section--message">
+                    <h5 class="form__section__h5">Message:</h5>
+                    <textarea class="form__section__textarea" placeholder="Want to add anything?" id="message"></textarea>
+                </section>
+                
+                <!-- Submit Button -->
+                <section class="form__section form__section--button">
+                    <button class="button button--green btnContactArea" type="submit">book</button>
+                </section>
+
+                <!-- Feedback message: -->
+                <section id="submitMessage" class="form__section form__section--feedback">
+                    <div>Thank you!</div>
+                    <div>Your order has been successfully sent. We will contact you very soon!</div>
+                </section>
+            </form>
+
+            <!-- Information: -->
+            <section class="main__section__block tour-info">
+
+
+                <section class="tour-info__section">
+                    <div class="block--border">
+                        <h3 class="tour-info__section__h3">We provide:</h3>
+                        <ul class="tour-info__section__list">
+                            <div class="tour-info__section__list__i">
+                                <li><i class="fas fa-bicycle"></i></li>
+                                <li><i class="fas fa-hard-hat"></i></li>
+                                <li><i class="fas fa-medkit"></i></li>
+                                
+                            </div>
+                            <div class="tour-info__section__list__desc">
+                                <li>Bike</li>
+                                <li>Helmet</li>
+                                <li>First Aid Kit</li>
+                            </div>
+                        </ul>
+                    </div>
+                </section>
+
+
+                <section class="tour-info__section">
+                    <div class="block--border">
+                        <h3 class="tour-info__section__h3">We recommend you to bring:</h3>
+                        <ul class="tour-info__section__list">
+                            <div class="tour-info__section__list__i">
+                                <li><i class="fas fa-suitcase-rolling"></i></li>
+                                <li><i class="fas fa-tint"></i></li>
+                                <li><i class="fas fa-camera-retro"></i></li>
+                                <li><i class="fas fa-apple-alt"></i></li>
+                                <li><i class="fas fa-cloud-sun-rain"></i></li>
+                            </div>
+                            <div class="tour-info__section__list__desc">
+                                <li>Backpack</li>
+                                <li>Water</li>
+                                <li>Camera</li>
+                                <li>Snack</li>
+                                <li>Clothes for the weather</li>
+                            </div>
+                        </ul>
+                    </div>
+                </section>
+            
+        </section>
+    </main> 
+    <!----------------------------------------------------------------------------------------->
+
+
+    <!-- FOOTER: ------------------------------------------------------------------------------>
+    <footer>
+        <div class="footer">
+            <div class="socials">
+                <a href="https://www.instagram.com/re-cycle"><img src="images/icons/instagram.png" alt="Instagram icon"></a>
+                <a href="https://www.facebook.com/re-cycle"><img src="images/icons/facebook.png" alt="Facebook icon"></a>
+                <a href="https://www.twitter.com/re-cycle"><img src="images/icons/twitter.png" alt="Twitter icon"></a>
+            </div>
+            <div class="tourist-info">
+                <a href="https://www.visitnorway.com/places-to-go/southern-norway/risor/">Risør Tourist Information</a>
+            </div>
+            <div class="desktop-info">
+                <p>Made by Emilie Tønnessen - 03.11.2019 (updated: 07.06.2020)</p>
+                <p>Course Assignment - “HTML & CSS” - Noroff FEU</p>
+            </div>
+            <div class="mobile-info">
+                <p>Made by Emilie Tønnessen</p>
+                <p>Course Assignment - “HTML & CSS”</p>
+                <p>Noroff FEU</p>
+                <p>03.11.2019</p>
+            </div>
+        </div>
+    </footer>
+    <!----------------------------------------------------------------------------------------->
+
+    <!-- JAVASCRIPT: -------------------------------------------------------------------------->
+    <script src="js/mobile-menu.js"></script>
+    <script src="js/product.js"></script>
+    <script src="js/tours.js"></script>
+    <script src="js/order.js"></script>
+    <!----------------------------------------------------------------------------------------->
+  </body>
+</html>

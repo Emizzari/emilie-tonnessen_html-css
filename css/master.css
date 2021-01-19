@@ -1,0 +1,119 @@
+/* COLOUR PALETTE:
+#59AA33; - Dark green
+#A0E95A; - Green
+#99BF93; - Light green
+#1A1A1A; - Dark grey
+#F25353; - Red
+------------------------------------------------------------ */
+
+
+/* FONTS:
+NAVIGATION TOP FONT: font-family: 'Kodchasan', sans-serif;
+HEADLINE FONT: font-family: 'Thasadith', sans-serif;
+SUBHEADLINE FONT: font-family: 'Livvic', sans-serif;
+BODY FONT: font-family: 'Darker Grotesque', sans-serif;
+------------------------------------------------------------ */
+
+
+/* CSS IMPORT: --------------------------------------------- */
+
+@import url("tours.css");
+@import url("main.css");
+@import url("contact-form.css");
+@import url("home.css");
+
+@import url("footer.css");
+@import url("nav.css");
+/* --------------------------------------------------------- */
+
+
+/* FONT IMPORT: -------------------------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Darker+Grotesque|Kodchasan|Livvic|Thasadith&display=swap');
+/* --------------------------------------------------------- */
+
+
+/* GLOBAL STYLES: ------------------------------------------- */
+html,
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+main img{
+  width: 100%;
+}
+
+section, article, div,
+h1, h2, h3, h4, h5, h6,
+a, p, ul, li, label,
+button, iframe, input, textarea, img, i,
+main, nav, footer{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Thasadith', sans-serif;
+  color: #59AA33;
+  text-transform: uppercase;
+}
+
+a:hover,
+button:hover{
+  cursor: pointer;
+}
+
+h2, h3{
+  font-family: 'Livvic', sans-serif;
+  text-transform: uppercase;
+}
+
+.bold{
+  font-weight: 600;
+}
+
+.italic{
+  font-style: italic;
+}
+
+
+/* MOBILE
+------------------------------------------------------------*/
+@media only screen and (max-width: 480px){
+  main{
+    font-size: 19px;
+  }
+
+  h1{
+    font-size: 40px;
+  }
+}
+
+/* TABLET
+------------------------------------------------------------*/
+@media only screen and (min-width: 481px) and (max-width:1024px){
+  main{
+    font-size: 21px;
+  }
+
+  h1{
+    font-size: 45px;
+  }
+}
+
+/* DESKTOP
+------------------------------------------------------------*/
+@media only screen and (min-width: 1025px){
+  main{
+    font-size: 22px;
+  }
+
+  h1{
+    font-size: 50px;
+  }
+}
